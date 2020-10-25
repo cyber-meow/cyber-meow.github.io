@@ -1,0 +1,36 @@
+{% assign publications = site.data.sitetext.publications %}
+{% if publications %}
+  <section class="bg-light page-section" id=publications>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">
+            <span class="fa-stack fa-xs">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+            </span>
+            {{ publications.title | default: "Publications"}}</h2>
+        </div>
+      </div>
+
+      {% if publications.intro %}
+        <div class="intro">
+          {{ publications.intro | markdownify }}
+        </div><!--//intro-->
+      {% endif %}
+
+      {% for publication in publications.papers %}
+        <div class="item">
+          {% if publication.link %}
+            <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+          {% else %}
+            <li>{{ publication.title }}</li>
+          {% endif %}
+          <div class="publication-authors">{{ publication.authors }}</div>
+          <div class="publication-conference">{{ publication.conference }}</div>
+        </div><!--//item-->
+      {% endfor %}
+    </div>
+  </section><!--//section-->
+{% endif %}
