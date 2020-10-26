@@ -2,6 +2,7 @@
 .bundle
 .sass-cache
 .jekyll-cache
+.*.swp
 _site
 Gemfile.lock
 unused
