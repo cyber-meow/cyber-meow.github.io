@@ -176,3 +176,33 @@
     }
   }
 }
+
+/* Tooltip container */
+//.tooltip {
+//  position: relative;
+//  display: inline-block;
+//  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+//}
+
+/* Tooltip text */
+.timeline-panel .tooltiptext {
+  visibility: hidden;
+  width: 360px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding: 5px 5px 0px 15px;
+  border-radius: 6px;
+  top: 90%;
+  left: 50%;
+  margin-left: -180px; /* Use half of the width (120/2 = 60), to center the tooltip */
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.timeline-panel:hover .tooltiptext {
+  visibility: visible;
+}
