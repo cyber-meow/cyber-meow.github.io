@@ -85,10 +85,12 @@
   }
   .timeline-heading {
     h4 {
-      margin-top: 0;
+      line-height: 30px;
+      margin-top: 20px;
       color: inherit;
       &.subheading {
         text-transform: none;
+        margin-top: 0px;
       }
     }
   }
