@@ -1,4 +1,5 @@
-{% assign publications = site.data.sitetext.publications %}
+{% assign publications = site.publications | reverse %}
+
 {% if publications %}
   <section class="bg-light page-section" id=publications>
 
@@ -6,31 +7,45 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">
-            <span class="fa-stack fa-xs">
+            <!--<span class="fa-stack fa-xs">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-            </span>
-            {{ publications.title | default: "Publications"}}</h2>
+              </span>-->
+              {{ publications.title | default: "Publications"}}</h2>
         </div>
       </div>
 
-      {% if publications.intro %}
-        <div class="intro">
-          {{ publications.intro | markdownify }}
-        </div><!--//intro-->
-      {% endif %}
-
-      {% for publication in publications.papers %}
-        <div class="item">
-          {% if publication.link %}
-            <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-          {% else %}
-            <li>{{ publication.title }}</li>
-          {% endif %}
-          <div class="publication-authors">{{ publication.authors }}</div>
-          <div class="publication-conference">{{ publication.conference }}</div>
-        </div><!--//item-->
-      {% endfor %}
+      <div class="publications">
+        {% for publication in publications %}
+          <div class="item">
+            <div class="title">{{ publication.title }}</div>
+            <div class="author">{{ publication.authors }}</div>
+            <div class="confyear">
+              <span class="conference"> {{ publication.conference }}</span>, {{ publication.year }}
+            </div>
+            {% if publication.pdf %}
+              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.pdf | relative_url }} target="_blank" rel="noopener">
+              Paper
+              </a>
+            {% endif %}
+            {% if publication.slides %}
+              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.slides | relative_url }} target="_blank" rel="noopener">
+              Slides
+              </a>
+            {% endif %}
+            {% if publication.poster %}
+              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.poster | relative_url }} target="_blank" rel="noopener">
+              Poster
+              </a>
+            {% endif %}
+            {% if publication.code %}
+              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.code }} target="_blank" rel="noopener">
+              Code
+              </a>
+            {% endif %}
+          </div><!--//item-->
+        {% endfor %}
+      </div>
     </div>
   </section><!--//section-->
 {% endif %}

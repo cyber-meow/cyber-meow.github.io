@@ -1,12 +1,15 @@
-<section class="page-section" id="{{ site.data.sitetext.about.section | default: "about" }}">
+{% assign about = site.data.sitetext.about %}
+
+<section class="page-section" id="{{ about.section | default: "about" }}">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-4">
         <div class="profile">
-          <img class="mx-auto rounded-circle" src="assets/img/YGH.jpg" alt="me">
+          <img class="mx-auto rounded-circle" src={{ about.image }} alt="me">
           <div class="portrait-title">
-            <h3>PHD Candidate</h3>
-            <h4>Universiy of Grenoble Alpes</h4>
+            <h2 class="name">{{ site.author }}</h2>
+            <h3>{{ about.position }}</h3>
+            <h4>{{ about.school }}</h4>
           </div>
           <ul class="network-icon" aria-hidden="true">
             <li>
@@ -29,11 +32,12 @@
         </div>
       </div>
       <div class="col-12 col-lg-8">
-        <h1>About Me</h1>
-        <p>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
-        <p>
-        <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://themes.gohugo.io//theme/academic/media/demo_resume.pdf" target="_blank">resumé</a>.</p>
+        <h2 class="section-heading text-uppercase">{{ about.title }}</h1>
+        {{ about.text | markdownify }}
+        Contact: yu-guan.hsieh AT univ-grenoble-alpes.fr
+        <hr>
+        <h3>News</h3>
+        <!-- <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://themes.gohugo.io//theme/academic/media/demo_resume.pdf" target="_blank">resumé</a>.</p>-->
       </div>
     </div>
 

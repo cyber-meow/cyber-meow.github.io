@@ -1,0 +1,25 @@
+// Styling for the publications section
+
+.publications {
+  .title {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 300;
+  }
+  .author {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .confyear {
+    margin-top: 5px;
+    font-size: 20px;
+    .conference {
+    }
+  }
+  .btn {
+    color: $primary;
+    border-color: $primary;
+    margin-right: 15px;
+  }
+}

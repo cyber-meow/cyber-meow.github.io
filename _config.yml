@@ -32,5 +32,6 @@ analytics:
 collections:
   portfolio:
   experiences:
+  publications:
 
 markdown: kramdown
