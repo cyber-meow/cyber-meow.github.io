@@ -13,8 +13,8 @@ about:
 
       Before my Ph.D., I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay.
       I am serving as a reviewer for ICML, NeurIPS, and ICLR."
-    position: PHD Candidate
-    school: Universiy of Grenoble Alpes
+    position: Ph.D. Candidate
+    school: University of Grenoble Alpes
     news:
       - text: "My paper on double stepsize extragradient got accepted by NeurIPS 2020 as a spotlight!"
       - text: "I gave a [talk](https://www.youtube.com/watch?v=Lgrl8ycKg8Y&list=PLQERYuTxSzGbiBcq7rsrzTzTTjVqDEupZ&index=28) in SMAI-MODE 2020 on the analysis of extragradient-type methods."
