@@ -24,22 +24,22 @@
               <span class="conference"> {{ publication.conference }}</span>, {{ publication.year }}
             </div>
             {% if publication.pdf %}
-              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.pdf | relative_url }} target="_blank" rel="noopener">
+              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.pdf | relative_url }} target="_blank" rel="noopener">
               Paper
               </a>
             {% endif %}
             {% if publication.slides %}
-              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.slides | relative_url }} target="_blank" rel="noopener">
+              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.slides | relative_url }} target="_blank" rel="noopener">
               Slides
               </a>
             {% endif %}
             {% if publication.poster %}
-              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.poster | relative_url }} target="_blank" rel="noopener">
+              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.poster | relative_url }} target="_blank" rel="noopener">
               Poster
               </a>
             {% endif %}
             {% if publication.code %}
-              <a class="btn btn-outline-primary mt-3 mb-1 btn-sm" href={{ publication.code }} target="_blank" rel="noopener">
+              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.code }} target="_blank" rel="noopener">
               Code
               </a>
             {% endif %}

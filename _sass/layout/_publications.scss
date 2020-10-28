@@ -21,5 +21,15 @@
     color: $primary;
     border-color: $primary;
     margin-right: 15px;
+    &:hover {
+      color: $primary;
+      background-color: $bg-primary;
+    }
+  }
+  .btn.active.focus, .btn.active:focus, .btn.focus,
+  .btn.focus:active, .btn:active:focus, .btn:focus {
+    background-color: $bg-primary;
+    box-shadow: 0 0 4px 4px $secondary;
   }
 }
+

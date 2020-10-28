@@ -49,7 +49,7 @@ timeline:
     section: timeline
     # left is the default
     #start_align: "left"
-    end: "<p>Download<br>My <a href=assets/file/CV.pdf>CV</a></p>"
+    end: "<p>Download<br>My CV</p>"
 
 footer:
     legal: "Privacy Policy"
