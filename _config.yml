@@ -18,8 +18,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Yu-Guan Hsieh
 email      : 
-description: "Site description"
+description: "Personal page of Yu-Guan Hsieh"
 author     : Yu-Guan Hsieh
+
+googleS: "https://scholar.google.com/citations?user=I9lAMpEAAAAJ"
+linkedin: "https://www.linkedin.com/in/yu-guan-hsieh-90b499148/"
+github: "https://github.com/cyber-meow"
 
 permalink: pretty
 # logo:     #optional, defaults to site title

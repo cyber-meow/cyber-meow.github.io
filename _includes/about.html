@@ -13,17 +13,17 @@
           </div>
           <ul class="network-icon" aria-hidden="true">
             <li>
-              <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+              <a href={{ site.googleS }} target="_blank" rel="noopener">
                 <i class="fas fa-graduation-cap big-icon"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+              <a href={{ site.github }} target="_blank" rel="noopener">
                 <i class="fab fa-github big-icon"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+              <a href={{ site.linkedin }} target="_blank" rel="noopener">
                 <i class="fab fa-linkedin big-icon"></i>
               </a>
             </li>
@@ -32,11 +32,19 @@
         </div>
       </div>
       <div class="col-12 col-lg-8">
-        <h2 class="section-heading text-uppercase">{{ about.title }}</h1>
-        {{ about.text | markdownify }}
-        Contact: yu-guan.hsieh AT univ-grenoble-alpes.fr
+        <div class="about">
+          <h2 class="section-heading text-uppercase">{{ about.title }}</h1>
+          {{ about.text | markdownify }}
+          <p><b>Contact:</b> yu-guan.hsieh AT univ-grenoble-alpes.fr</p>
+        </div>
         <hr>
-        <h3>News</h3>
+        <div class="news">
+          <h3>News</h3>
+          {% for news in about.news %}
+            <li>{{ news.text | markdownify }}</li>
+          {% endfor %}
+          </ul>
+        </div>
         <!-- <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="https://themes.gohugo.io//theme/academic/media/demo_resume.pdf" target="_blank">resumé</a>.</p>-->
       </div>
     </div>

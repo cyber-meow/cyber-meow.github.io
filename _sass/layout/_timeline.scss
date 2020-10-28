@@ -60,6 +60,14 @@
       &.end {
         background-color: $primary;
       }
+      p {
+        margin-top: 45px;
+        font-size: 20px;
+      }
+      a {
+        color: $secondary;
+        font-weight: bolder;
+      }
       h4 {
         font-size: 10px;
         line-height: 14px;
@@ -122,8 +130,14 @@
       .timeline-text {
         width: 41%;
         float: right;
-        padding: 0 30px 20px 20px;
+        padding: 0 30px 0 20px;
         text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: flex;
+        -webkit-line-clamp: 5; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        -webkit-box-pack: end;
       }
       .timeline-image {
         left: 50%;
@@ -144,7 +158,7 @@
       &.timeline-inverted > .timeline-text {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
+        padding: 0 20px 0 30px;
         text-align: right;
       }
     }

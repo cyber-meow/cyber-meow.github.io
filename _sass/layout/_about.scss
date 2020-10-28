@@ -1,5 +1,6 @@
 // Styling for the about section
 .profile {
+  margin-top: 40px;
   margin-bottom: 50px;
   text-align: center;
   img {
@@ -9,18 +10,32 @@
   h3 {
     margin-bottom: 0;
     text-transform: none;
-    margin-top: 5px;
+    margin-top: 10px;
+    color: $gray-600;
+    font-weight: 500;
   }
   h2.name {
-      margin-top: 30px;
+    margin-top: 30px;
   }
   h4 {
     margin-top: 5px;
     margin-bottom: 0px;
     text-transform: none;
+    color: $gray-600;
+    font-weight: 500;
   }
   p {
     margin-top: 0;
+  }
+}
+
+.about{
+  margin-top: 40px;
+}
+
+.news {
+  li p {
+    display: inline;
   }
 }
 

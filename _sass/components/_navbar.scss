@@ -13,7 +13,7 @@
   }
   .navbar-brand {
     color: $primary;
-    font-size: 24px;
+    font-size: 30px;
     @include serif-font;
     font-weight: 1000;
     &.active,
@@ -26,7 +26,7 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 90%;
+        font-size: 15px;
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
@@ -49,7 +49,7 @@
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     _.navbar-brand {
-      font-size: 1.75em;
+      font-size: 2.5em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -66,8 +66,8 @@
       padding-bottom: 0;
       _background-color: $gray-900;
       .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
+        font-size: 1.75em;
+        padding: 8px 0;
       }
     }
   }

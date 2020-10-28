@@ -1,19 +1,24 @@
 about:
     title: "About me"
+    section: about
     image: assets/img/YGH.jpg
     text: 
-      "I am a PhD candidate at University of Grenoble Alpes supervised by
+      "I am a Ph.D. candidate at University of Grenoble Alpes supervised by
       [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
       [Franck Iutzeler](http://www.iutzeler.org/), and
       [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/).
       My current research interests lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, and __distributed optimization__.
-      Apart from this, I am broadly interested in various topics in AI related mathematics and am open to working on different subjects in the future. 
+      Apart from this, I am broadly interested in various topics in AI-related mathematics and am open to working on different subjects in the future. 
 
 
-      Before my PhD, I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay."
+      Before my Ph.D., I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay.
+      I am serving as a reviewer for ICML, NeurIPS, and ICLR."
     position: PHD Candidate
     school: Universiy of Grenoble Alpes
-    section: about
+    news:
+      - text: "My paper on double stepsize extragradient got accepted by NeurIPS 2020 as a spotlight!"
+      - text: "I gave a [talk](https://www.youtube.com/watch?v=Lgrl8ycKg8Y&list=PLQERYuTxSzGbiBcq7rsrzTzTTjVqDEupZ&index=28) in SMAI-MODE 2020 on the analysis of extragradient-type methods."
+      
 
 header:
     title: Welcome to our Studio!
@@ -44,7 +49,7 @@ timeline:
     section: timeline
     # left is the default
     #start_align: "left"
-    end: "The<br>Story<br>Continues"
+    end: "<p>Download<br>My <a href=assets/file/CV.pdf>CV</a></p>"
 
 footer:
     legal: "Privacy Policy"
