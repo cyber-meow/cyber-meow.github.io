@@ -26,12 +26,19 @@
     &:after {
       clear: both;
     }
-    .timeline-panel .timeline-text {
+    .timeline-panel {
       position: relative;
       float: right;
       width: 100%;
       padding: 0 20px 0 100px;
       text-align: left;
+      ul {
+        padding: 0;
+        list-style: none;
+        li {
+          margin: 0 0 5px 0;
+        }
+      }
       &:before {
         right: auto;
         left: -15px;
@@ -44,6 +51,13 @@
         border-right-width: 14px;
         border-left-width: 0;
       }
+    }
+    .timeline-text {
+      position: relative;
+      float: right;
+      width: 100%;
+      padding: 0 20px 0 100px;
+      text-align: left;
     }
     .timeline-image {
       position: absolute;
@@ -64,13 +78,9 @@
         }
       }
       p {
-        line-height: 40px;
-        font-size: 20px;
-      }
-      h4 {
+        margin-top: 15px;
         font-size: 10px;
-        line-height: 14px;
-        margin-top: 12px;
+        line-height: 20px;
       }
     }
     &.timeline-inverted > .timeline-panel {
@@ -147,6 +157,10 @@
           font-size: 13px;
           line-height: 18px;
           margin-top: 16px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 40px;
         }
       }
       &.timeline-inverted > .timeline-panel {
