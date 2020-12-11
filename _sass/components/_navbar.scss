@@ -14,6 +14,7 @@
   .navbar-brand {
     color: $primary;
     font-size: 30px;
+    transition: 0.5s;
     @include serif-font;
     font-weight: 1000;
     &.active,
@@ -44,15 +45,15 @@
   #mainNav {
     padding-top: 10px;
     padding-bottom: 10px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
+    -webkit-transition: padding-top 0.5s, padding-bottom 0.5s;
+    -moz-transition: padding-top 0.5s, padding-bottom 0.5s;
+    transition: padding-top 0.5s, padding-bottom 0.5s;
     border: none;
     _.navbar-brand {
       font-size: 2.5em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
     }
     .navbar-nav {
       .nav-item {
@@ -66,6 +67,7 @@
       padding-bottom: 0;
       _background-color: $gray-900;
       .navbar-brand {
+        transition: 0.5s;
         font-size: 1.75em;
         padding: 8px 0;
       }

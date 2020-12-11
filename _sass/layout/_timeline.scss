@@ -75,7 +75,12 @@
         background-color: $primary;
         &:hover {
           transform: scale(1.1);
+          transition: 0.2s;
           text-decoration: none;
+        }
+        &:active {
+          transform: scale(1);
+          transition: 0.2s;
         }
       }
       p {

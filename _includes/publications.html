@@ -11,7 +11,7 @@
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
               </span>-->
-              {{ publications.title | default: "Publications"}}</h2>
+              {{ site.data.sitetext.publications.title | default: "Publications"}}</h2>
         </div>
       </div>
 
@@ -31,6 +31,11 @@
             {% if publication.slides %}
               <a class="btn mt-3 mb-1 btn-sm" href={{ publication.slides | relative_url }} target="_blank" rel="noopener">
               Slides
+              </a>
+            {% endif %}
+            {% if publication.video %}
+              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.video }} target="_blank" rel="noopener">
+              Video
               </a>
             {% endif %}
             {% if publication.poster %}

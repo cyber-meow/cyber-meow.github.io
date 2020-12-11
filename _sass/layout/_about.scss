@@ -41,6 +41,10 @@
 }
 
 .news {
+  ul {
+    list-style: outside;
+    padding-left: 20px;
+  }
   li p {
     display: inline;
   }
@@ -59,6 +63,7 @@ ul.network-icon {
     margin-right: 30px;
     &:hover {
       transform: scale(1.35);
+      transition: 0.2s;
     }
     &:last-of-type {
       margin-right: 0;

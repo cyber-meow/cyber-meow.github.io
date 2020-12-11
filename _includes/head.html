@@ -20,6 +20,16 @@
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+
+  <meta name="og:title" content="{{ site.title }}">
+  <meta name="og:site_name" content="{{ site.title }}">
+  <meta name="og:description" content="{{ site.description }}">
+  <meta name="og:author" content="{{ site.author }}">
+  <meta name="og:url" content="{{ site.url }}">
+  
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+
   <!-- Bootstrap core CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 

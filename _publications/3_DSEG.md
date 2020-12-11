@@ -5,5 +5,7 @@ conference: Neural Information Processing Systems (NeurIPS)
 year: 2020
 pdf: assets/file/DSEG.pdf
 slides: assets/file/DSEG_slides.pdf
+video: https://neurips.cc/virtual/2020/public/poster_ba9a56ce0a9bfa26e8ed9e10b2cc8f46.html
+poster: assets/file/DSEG_poster.pdf
 code: https://github.com/cyber-meow/Double_stepsize_extragradient
 ---
