@@ -16,7 +16,7 @@ about:
     position: Ph.D. Candidate
     school: University of Grenoble Alpes
     news:
-      - text: "I wrote a paper on multi-agent online learning with asynchronous activation and communication. Check it [here](assets/file/OnlineAsync.pdf)."
+      - text: "We wrote a paper on multi-agent online optimization with asynchronous activation and communication. Check it [here](assets/file/OnlineAsync.pdf)."
       - text: "Our paper on double stepsize extragradient was presented at NeurIPS as a [spotlight](https://neurips.cc/virtual/2020/public/poster_ba9a56ce0a9bfa26e8ed9e10b2cc8f46.html)!"
       - text: "I gave a [talk](https://www.youtube.com/watch?v=Lgrl8ycKg8Y&list=PLQERYuTxSzGbiBcq7rsrzTzTTjVqDEupZ&index=28) in SMAI-MODE 2020 on the analysis of extragradient-type methods."
       
