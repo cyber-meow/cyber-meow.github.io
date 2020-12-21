@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title      : "Yu-Guan Hsieh - My personal website"
 innertitle      : "Yu-Guan Hsieh"
 email      : 
-description: "Welcome to the personal website of Yu-Guan Hsieh! I am a Ph.D. candidate at University of Grenoble Alpes supervised. My current research interests lie in the intersection of optimization and machine learning, with a focus on minimax optimization, online learning, and distributed optimization. I am also serving as a reviewer for ICML, NeurIPS, and ICLR."
+description: "Welcome to my personal website! I'm a Ph.D. candidate at University of Grenoble Alpes. My current research interests lie in the intersection of optimization and machine learning, with a focus on minimax optimization, online learning, and distributed optimization. I am also serving as a reviewer for ICML, NeurIPS, and ICLR."
 author     : Yu-Guan Hsieh
 
 googleS: "https://scholar.google.com/citations?user=I9lAMpEAAAAJ"
