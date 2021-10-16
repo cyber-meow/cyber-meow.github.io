@@ -16,9 +16,10 @@ about:
     position: Ph.D. Candidate
     school: University of Grenoble Alpes
     news:
+      - text: "(October 2021) I start my applied science internship at Amazon!"
       - text: "(July 2021) The [paper](assets/file/DAERON.pdf) on optimization in open networks is accepted at CDC 2021."
       - text: "(May 2021) The [paper](assets/file/AdaptGame.pdf) on adaptive learning in games is accepted at COLT 2021."
-      - text: "(December 2020) The [paper](assets/file/DSEG.pdf) on double stepsize extragradient is presented at NeurIPS as a [spotlight](https://neurips.cc/virtual/2020/public/poster_ba9a56ce0a9bfa26e8ed9e10b2cc8f46.html)!"
+      # - text: "(December 2020) The [paper](assets/file/DSEG.pdf) on double stepsize extragradient is presented at NeurIPS as a [spotlight](https://neurips.cc/virtual/2020/public/poster_ba9a56ce0a9bfa26e8ed9e10b2cc8f46.html)!"
       # - text: "I gave a [talk](https://www.youtube.com/watch?v=Lgrl8ycKg8Y&list=PLQERYuTxSzGbiBcq7rsrzTzTTjVqDEupZ&index=28) in SMAI-MODE 2020 on the analysis of extragradient-type methods."
       
 publications:
