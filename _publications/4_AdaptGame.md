@@ -3,8 +3,9 @@ title: "Adaptive Learning in Continuous Games: Optimal Regret Bounds and Converg
 authors: Yu-Guan Hsieh, Kimon Antonakopoulos, and Panayotis Mertikopoulos
 conference: Conference on Learning Theory (COLT)
 year: 2021
-pdf: assets/file/AdaptGame.pdf
+paper: assets/file/AdaptGame.pdf
+poster: assets/file/AdaptGame_poster.pdf
 slides: assets/file/AdaptGame_slides.pdf
 video: http://www.learningtheory.org/colt2021/virtual/poster_157.html
-poster: assets/file/AdaptGame_poster.pdf
+arxiv: https://arxiv.org/abs/2104.12761
 ---

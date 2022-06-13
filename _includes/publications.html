@@ -15,6 +15,7 @@
         </div>
       </div>
 
+      {% assign inputs = 'paper,pdf,arxiv,poster,slides,video,code' | split:"," %}
       <div class="publications">
         {% for publication in publications %}
           <div class="item">
@@ -23,31 +24,13 @@
             <div class="confyear">
               <span class="conference"> {{ publication.conference }}</span>, {{ publication.year }}
             </div>
-            {% if publication.pdf %}
-              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.pdf | relative_url }} target="_blank" rel="noopener">
-              Paper
+            {% for item in publication %}
+              {% if inputs contains item %}
+                <a class="btn mt-3 mb-1 btn-sm" href={{ publication[item] | relative_url }} target="_blank" rel="noopener">
+                  {{ item | capitalize }}
               </a>
-            {% endif %}
-            {% if publication.slides %}
-              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.slides | relative_url }} target="_blank" rel="noopener">
-              Slides
-              </a>
-            {% endif %}
-            {% if publication.video %}
-              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.video }} target="_blank" rel="noopener">
-              Video
-              </a>
-            {% endif %}
-            {% if publication.poster %}
-              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.poster | relative_url }} target="_blank" rel="noopener">
-              Poster
-              </a>
-            {% endif %}
-            {% if publication.code %}
-              <a class="btn mt-3 mb-1 btn-sm" href={{ publication.code }} target="_blank" rel="noopener">
-              Code
-              </a>
-            {% endif %}
+              {% endif %}
+            {% endfor %}
           </div><!--//item-->
         {% endfor %}
       </div>
