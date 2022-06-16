@@ -4,4 +4,5 @@ authors: Yu-Guan Hsieh, Kimon Antonakopoulos, Volkan Cevher, and Panayotis Merti
 conference: Submitted to NeurIPS
 year: 2022
 paper: assets/file/GameMulNoise.pdf
+arxiv: https://arxiv.org/abs/2206.06015
 ---
