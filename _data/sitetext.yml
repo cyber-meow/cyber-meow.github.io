@@ -16,8 +16,11 @@ about:
     position: Ph.D. Candidate
     school: University of Grenoble Alpes
     news:
-      - text: "(June 2022) Website updated. Three new papers online!"
-      - text: "(March 2022) I will start another internship in Amazon from August 2022."
+      - text: "(September 2022) Two papers get accepted at NeurIPS! Scroll down to see more."
+      - text: "(August 2022) I start my internship at Amazon in the Bay Area."
+      - text: "(July 2022) I give a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
+      # - text: "(June 2022) Website updated. Three new papers online!"
+      # - text: "(March 2022) I will start another internship in Amazon from August 2022."
       - text: "(January 2022) The [paper](https://www.jmlr.org/papers/v23/20-1393.html) on multi-agent online learning is accepted at JMLR."
       # - text: "(October 2021) I start my applied science internship at Amazon!"
       # - text: "(July 2021) The [paper](assets/file/DAERON.pdf) on optimization in open networks is accepted at CDC 2021."
