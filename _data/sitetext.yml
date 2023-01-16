@@ -7,21 +7,22 @@ about:
       [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
       [Franck Iutzeler](http://www.iutzeler.org/), and
       [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/).
-      My current research interests lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
-      Apart from this, I am broadly interested in various topics in artificial intelligence and am open to working on different subjects in the future. 
+      My research interests lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
+      Apart from this, I am broadly interested in various topics in artificial intelligence and am open to working on different subjects. 
 
 
       Before my Ph.D., I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay.
-      I am serving as a reviewer for ICML, NeurIPS, and ICLR."
+      I am serving as a reviewer for ICML, NeurIPS, ICLR, and several optimization and machine learning journals."
     position: Ph.D. Candidate
     school: University of Grenoble Alpes
     news:
-      - text: "(September 2022) Two papers get accepted at NeurIPS! Scroll down to see more."
-      - text: "(August 2022) I start my internship at Amazon in the Bay Area."
-      - text: "(July 2022) I give a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
+      - text: "(January 2023) The full version of my paper on Thompson Sampling with Diffusion model presented at [2022 NeurIPS score-based model workshop](https://score-based-methods-workshop.github.io/) is now [online](https://arxiv.org/abs/2301.05182)." 
+      - text: "(September 2022) Two papers got accepted at NeurIPS! Scroll down to see more."
+      # - text: "(August-November 2022) I did an internship at Amazon in the Bay Area."
+      - text: "(July 2022) I gave a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
       # - text: "(June 2022) Website updated. Three new papers online!"
       # - text: "(March 2022) I will start another internship in Amazon from August 2022."
-      - text: "(January 2022) The [paper](https://www.jmlr.org/papers/v23/20-1393.html) on multi-agent online learning is accepted at JMLR."
+      # - text: "(January 2022) The [paper](https://www.jmlr.org/papers/v23/20-1393.html) on multi-agent online learning is accepted at JMLR."
       # - text: "(October 2021) I start my applied science internship at Amazon!"
       # - text: "(July 2021) The [paper](assets/file/DAERON.pdf) on optimization in open networks is accepted at CDC 2021."
       # - text: "(May 2021) The [paper](assets/file/AdaptGame.pdf) on adaptive learning in games is accepted at COLT 2021."
