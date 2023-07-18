@@ -1,7 +1,7 @@
 ---
 title: "Thompson Sampling with Diffusion Generative Prior"
 authors: Yu-Guan Hsieh, Shiva Kasiviswanathan, Branislav Kveton, and Patrick Blöbaum
-conference: arXiv preprint arXiv:2301.05182
+conference: International Conference on Machine Learning (ICML), 2023
 year: 2023
 paper: assets/file/DiffTS.pdf
 poster: assets/file/DiffTS_poster.pdf

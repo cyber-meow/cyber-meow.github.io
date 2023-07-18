@@ -6,20 +6,28 @@ about:
       "I am a Ph.D. candidate at University of Grenoble Alpes supervised by
       [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
       [Franck Iutzeler](http://www.iutzeler.org/), and
-      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/).
-      My research interests lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
-      Apart from this, I am broadly interested in various topics in artificial intelligence and am open to working on different subjects. 
-
+      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/), graduating this Semptember (2023).
+      My Ph.D. research centers around the mathematical aspects of decision-making in multi-agent systems,
+      touching upon especially problems in __online learning__, __distributed optimization__, and __learning in games__.
+      Apart from this, I am broadly interested in various topics in artificial intelligence,
+      with notably a focus on __generative models__ and __efficient fine-tuning__ at the moment.
+      This led me to contribute to the [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS/) project,
+      a fantastic library for parameter efficient fine-tuning for Stable Diffusion.
+      We are about to release a research paper for this work, so stay tuned for updates! <br>
 
       Before my Ph.D., I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay.
       I am serving as a reviewer for ICML, NeurIPS, ICLR, and several optimization and machine learning journals."
     position: Ph.D. Candidate
     school: University of Grenoble Alpes
+    # Apart from this, I am broadly interested in various topics in artificial intelligence,
+    # in  lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
     news:
-      - text: "(January 2023) The full version of my paper on Thompson Sampling with Diffusion model presented at [2022 NeurIPS score-based model workshop](https://score-based-methods-workshop.github.io/) is now [online](https://arxiv.org/abs/2301.05182)." 
-      - text: "(September 2022) Two papers got accepted at NeurIPS! Scroll down to see more."
+      # - text: "(July 2023) I have finished writing my thesis and now working on several projects related to diffusion models."
+      - text: "(April 2023) The Thompson Sampling with diffusion prior [paper](https://arxiv.org/abs/2301.05182) is accepted at ICML!" 
+      - text: "(July 2022) I give a talk at NUS during the workshop on learning in games. [[Slides](assets/file/NUS_Talk_Slides.pdf)]"
+      - text: "(September 2022) Two papers get accepted at NeurIPS! Scroll down to see more."
       # - text: "(August-November 2022) I did an internship at Amazon in the Bay Area."
-      - text: "(July 2022) I gave a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
+      # - text: "(July 2022) I give a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
       # - text: "(June 2022) Website updated. Three new papers online!"
       # - text: "(March 2022) I will start another internship in Amazon from August 2022."
       # - text: "(January 2022) The [paper](https://www.jmlr.org/papers/v23/20-1393.html) on multi-agent online learning is accepted at JMLR."
