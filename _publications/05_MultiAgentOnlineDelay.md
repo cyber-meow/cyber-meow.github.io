@@ -4,6 +4,6 @@ authors: Yu-Guan Hsieh, Franck Iutzeler, Jérôme Malick, and Panayotis Mertikop
 conference: Journal of Machine Learning Research (JMLR)
 year: 2022
 paper: assets/file/MultiAgentOnlineDelay.pdf
-poster: assets/file/MultiAgentOnlineDelay_poster.pdf
 arxiv: https://arxiv.org/abs/2012.11579
+poster: assets/file/MultiAgentOnlineDelay_poster.pdf
 ---

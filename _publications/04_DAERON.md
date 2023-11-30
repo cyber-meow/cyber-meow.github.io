@@ -4,6 +4,6 @@ authors: Yu-Guan Hsieh, Franck Iutzeler, Jérôme Malick, and Panayotis Mertikop
 conference: IEEE Conference on Decision and Control (CDC)
 year: 2021
 paper: assets/file/DAERON.pdf
-slides: assets/file/DAERON_slides.pdf
 arxiv: https://arxiv.org/abs/2105.13348
+slides: assets/file/DAERON_slides.pdf
 ---

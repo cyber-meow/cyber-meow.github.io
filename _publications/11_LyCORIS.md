@@ -5,4 +5,5 @@ conference: arXiv preprint arXiv:2309.14859
 year: 2023
 paper: assets/file/LyCORIS.pdf
 arxiv: https://arxiv.org/abs/2309.14859
+code: https://github.com/KohakuBlueleaf/LyCORIS
 ---

@@ -20,9 +20,10 @@ about:
     # Apart from this, I am broadly interested in various topics in artificial intelligence,
     # in  lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
     news:
+      - text: "(November 2023) I have graduated from my Ph.D. and will move to Apple Paris for a postdoctoral position from 2024."
       - text: "(September 2023) We have finished writing the paper on LyCORIS. Check it [here](https://arxiv.org/abs/2309.14859)."
-      - text: "(July 2023) I have submitted my thesis. The manuscript can be found [here](assets/file/Thesis.pdf)."
-      - text: "(April 2023) The Thompson Sampling with diffusion prior [paper](https://arxiv.org/abs/2301.05182) is accepted at ICML!" 
+        # - text: "(July 2023) I have submitted my thesis. The manuscript can be found [here](assets/file/Thesis.pdf)."
+      # - text: "(April 2023) The Thompson Sampling with diffusion prior [paper](https://arxiv.org/abs/2301.05182) is accepted at ICML!" 
       - text: "(April 2023) I give a talk at NUS during the workshop on learning in games. [[Slides](assets/file/NUS_Talk_Slides.pdf)]"
       # - text: "(September 2022) Two papers get accepted at NeurIPS! Scroll down to see more."
       # - text: "(August-November 2022) I did an internship at Amazon in the Bay Area."
