@@ -1,0 +1,48 @@
+about:
+    title: "About me"
+    section: about
+    image: assets/img/YGH.jpg
+    text: 
+      "I am a Ph.D. candidate at University of Grenoble Alpes supervised by
+      [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
+      [Franck Iutzeler](http://www.iutzeler.org/), and
+      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/).
+      My Ph.D. research centers around the mathematical aspects of decision-making in multi-agent systems,
+      touching upon especially problems in __online learning__, __distributed optimization__, and __learning in games__.
+      Apart from this, I am broadly interested in various topics in artificial intelligence,
+      with notably a focus on __generative models__ and __efficient fine-tuning__ at the moment
+      (check our [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS/) project for parameter efficient fine-tuning of Stable Diffusion). <br>
+
+      Before my Ph.D., I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay.
+      I am serving as a reviewer for ICML, NeurIPS, ICLR, and several optimization and machine learning journals."
+    position: Ph.D. Candidate
+    school: University of Grenoble Alpes
+    # Apart from this, I am broadly interested in various topics in artificial intelligence,
+    # in  lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
+    news:
+      - text: "(November 2023) I have graduated from my Ph.D. and will move to Apple Paris for a postdoctoral position from 2024."
+      - text: "(September 2023) We have finished writing the paper on LyCORIS. Check it [here](https://arxiv.org/abs/2309.14859)."
+        # - text: "(July 2023) I have submitted my thesis. The manuscript can be found [here](assets/file/Thesis.pdf)."
+      # - text: "(April 2023) The Thompson Sampling with diffusion prior [paper](https://arxiv.org/abs/2301.05182) is accepted at ICML!" 
+      - text: "(April 2023) I give a talk at NUS during the workshop on learning in games. [[Slides](assets/file/NUS_Talk_Slides.pdf)]"
+      # - text: "(September 2022) Two papers get accepted at NeurIPS! Scroll down to see more."
+      # - text: "(August-November 2022) I did an internship at Amazon in the Bay Area."
+      # - text: "(July 2022) I give a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
+      # - text: "(June 2022) Website updated. Three new papers online!"
+      # - text: "(March 2022) I will start another internship in Amazon from August 2022."
+      # - text: "(January 2022) The [paper](https://www.jmlr.org/papers/v23/20-1393.html) on multi-agent online learning is accepted at JMLR."
+      # - text: "(October 2021) I start my applied science internship at Amazon!"
+      # - text: "(July 2021) The [paper](assets/file/DAERON.pdf) on optimization in open networks is accepted at CDC 2021."
+      # - text: "(May 2021) The [paper](assets/file/AdaptGame.pdf) on adaptive learning in games is accepted at COLT 2021."
+      # - text: "(December 2020) The [paper](assets/file/DSEG.pdf) on double stepsize extragradient is presented at NeurIPS as a [spotlight](https://neurips.cc/virtual/2020/public/poster_ba9a56ce0a9bfa26e8ed9e10b2cc8f46.html)!"
+      # - text: "I gave a [talk](https://www.youtube.com/watch?v=Lgrl8ycKg8Y&list=PLQERYuTxSzGbiBcq7rsrzTzTTjVqDEupZ&index=28) in SMAI-MODE 2020 on the analysis of extragradient-type methods."
+      
+publications:
+    title: "Publications & Preprints"
+
+timeline:
+    title: "Experiences" 
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    end: "<p>Download<br>My CV</p>"

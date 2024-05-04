@@ -3,28 +3,35 @@ about:
     section: about
     image: assets/img/YGH.jpg
     text: 
-      "I am a Ph.D. candidate at University of Grenoble Alpes supervised by
+      "Welcome to my website!
+      As a postdoctoral researcher at Apple MLR, Paris,
+      I am deeply interested in how we can improve AI systems from various perspectives.
+      In particular, my current research focuses on __vision-language pre-training__
+      and __generative modeling__, where I take a data-centric approach and explore different
+      ways to enhance data quality.<br>
+
+      In the mean time, I have a theoretical background,
+      as evidenced by my Ph.D. in __optimization__,
+      __online learning__, and __learning in games__ completed under the supervision of
       [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
       [Franck Iutzeler](http://www.iutzeler.org/), and
-      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/).
-      My Ph.D. research centers around the mathematical aspects of decision-making in multi-agent systems,
-      touching upon especially problems in __online learning__, __distributed optimization__, and __learning in games__.
-      Apart from this, I am broadly interested in various topics in artificial intelligence,
-      with notably a focus on __generative models__ and __efficient fine-tuning__ at the moment
-      (check our [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS/) project for parameter efficient fine-tuning of Stable Diffusion). <br>
-
-      Before my Ph.D., I studied computer science at ENS Paris and got a double degree MSc from the CS department of ENS Paris and the Mathematics department of ENS Paris-Saclay.
-      I am serving as a reviewer for ICML, NeurIPS, ICLR, and several optimization and machine learning journals."
-    position: Ph.D. Candidate
-    school: University of Grenoble Alpes
+      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/) at Université Grenoble Alpes.
+      Finally, I also contributed to the [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS/) project
+      that implements a number of algorithms for __efficient fine-tuning__.
+      This represents an important topic in making AI more personalized and accessible."
+    position: Postdoctoral Researcher
+    school: Apple MLR
     # Apart from this, I am broadly interested in various topics in artificial intelligence,
     # in  lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
     news:
-      - text: "(November 2023) I have graduated from my Ph.D. and will move to Apple Paris for a postdoctoral position from 2024."
-      - text: "(September 2023) We have finished writing the paper on LyCORIS. Check it [here](https://arxiv.org/abs/2309.14859)."
-        # - text: "(July 2023) I have submitted my thesis. The manuscript can be found [here](assets/file/Thesis.pdf)."
+      - text: "(May 2024) The [BLOOP paper](https://arxiv.org/abs/2402.02998) for improved gradient surgery is accepted at ICML!"
+      - text: "(Jan 2024) The [LyCORIS paper](https://arxiv.org/abs/2309.14859) for Stable Diffusion fine-tuning is accepted at ICLR!"
+      - text: "(Jan 2024) I started my postdoctoral position at Apple MLR, Paris."
+      # - text: "(November 2023) I have graduated from my Ph.D. and will move to Apple Paris for a postdoctoral position from 2024."
+      # - text: "(September 2023) We have finished writing the paper on LyCORIS. Check it [here](https://arxiv.org/abs/2309.14859)."
+      # - text: "(July 2023) I have submitted my thesis. The manuscript can be found [here](assets/file/Thesis.pdf)."
       # - text: "(April 2023) The Thompson Sampling with diffusion prior [paper](https://arxiv.org/abs/2301.05182) is accepted at ICML!" 
-      - text: "(April 2023) I give a talk at NUS during the workshop on learning in games. [[Slides](assets/file/NUS_Talk_Slides.pdf)]"
+      # - text: "(April 2023) I give a talk at NUS during the workshop on learning in games. [[Slides](assets/file/NUS_Talk_Slides.pdf)]"
       # - text: "(September 2022) Two papers get accepted at NeurIPS! Scroll down to see more."
       # - text: "(August-November 2022) I did an internship at Amazon in the Bay Area."
       # - text: "(July 2022) I give a talk at NTNU. Check the slides [here](assets/file/NTNU_Talk_Slides.pdf)."
