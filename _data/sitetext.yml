@@ -24,7 +24,7 @@ about:
     # Apart from this, I am broadly interested in various topics in artificial intelligence,
     # in  lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
     news:
-      - text: "(June 2024) I have received an award for my thesis (prix de thèse académique) from Université Grenble Alpes, where I did my Ph.D!"
+      - text: "(June 2024) I have received the [Academic Thesis Prize](https://doctorat.univ-grenoble-alpes.fr/doctoral-college/phd-news/2024-academic-thesis-prize-yu-guan-hsieh--1435801.kjsp) from Université Grenble Alpes!"
       - text: "(May 2024) The [BLOOP paper](https://arxiv.org/abs/2402.02998) for improved gradient surgery is accepted at ICML."
       - text: "(Jan 2024) The [LyCORIS paper](https://arxiv.org/abs/2309.14859) for Stable Diffusion fine-tuning is accepted at ICLR."
       - text: "(Jan 2024) I started my postdoctoral position at Apple MLR, Paris."
