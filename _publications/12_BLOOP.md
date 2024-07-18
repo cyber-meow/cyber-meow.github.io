@@ -5,4 +5,5 @@ conference: International Conference on Machine Learning (ICML)
 year: 2024
 paper: assets/file/BLOOP.pdf
 arxiv: https://arxiv.org/abs/2402.02998
+poster: assets/file/BLOOP_poster.pdf
 ---
