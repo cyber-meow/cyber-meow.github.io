@@ -1,6 +1,6 @@
 ---
 title: "Postdoc at Apple MLR, Paris, France"
-year: 2024 January
+year: 2024
 image: assets/img/timeline/Eiffel_tower.jpg
 ---
 I returned to Paris after four years of my Ph.D. pursuit, and this came with a refocusing of my research interests.

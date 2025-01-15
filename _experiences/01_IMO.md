@@ -1,6 +1,6 @@
 ---
 title: "IMO silver medal in Colombia"
-year: "2013"
+year: 2013 July
 image: assets/img/timeline/IMO.jpg
 alt: IMO
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Research Scientist at Spellbrush, Tokyo, Japan"
-year: 2025 January
+year: 2025 January ~ Now
 image: assets/img/timeline/Spellbrush.jpg
 ---
 I started my research career in Tokyo, and I am now going back to Tokyo for another turning point in my life.
