@@ -5,4 +5,6 @@ conference: arxiv 2407.06723
 year: 2024
 paper: assets/file/GBC.pdf
 arxiv: https://arxiv.org/abs/2407.06723
+code: https://github.com/apple/ml-gbc
+datasets: https://huggingface.co/graph-based-captions
 ---
