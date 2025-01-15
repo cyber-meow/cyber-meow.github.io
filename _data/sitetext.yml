@@ -3,31 +3,33 @@ about:
     section: about
     image: assets/img/YGH.jpg
     text: 
-      "Welcome to my website!
-      As a postdoctoral researcher at Apple MLR, Paris,
-      I am deeply interested in how we can improve AI systems from various perspectives.
-      In particular, my current research focuses on __vision-language pre-training__
-      and __generative modeling__, where I take a data-centric approach and explore different
-      ways to enhance data quality.<br>
-
-      In the mean time, I have a theoretical background,
-      as evidenced by my Ph.D. in __optimization__,
-      __online learning__, and __learning in games__ completed under the supervision of
-      [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
+      "Welcome to my website. I am currently a research scientist at [Spellbrush](https://spellbrush.com/).
+      With the power of AI, we strive to make anime more real than ever! <br>
+      
+      Before joining Spellbrush, I did my postdoc at Apple MLR, Paris, where I conducted research on
+      vision-language pre-training and generative modeling with a data-centric approach.
+      Even before that, I did a theoretical Ph.D. at Université Grenoble Alpes,
+      focusing on optimization, online learning, and learning in games
+      under the supervision of [Jérôme Malick](https://ljk.imag.fr/membres/Jerome.Malick/),
       [Franck Iutzeler](http://www.iutzeler.org/), and
-      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/) at Université Grenoble Alpes.
-      Finally, I also contributed to the [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS/) project
-      that implements a number of algorithms for __efficient fine-tuning__.
-      This represents an important topic in making AI more personalized and accessible."
-    position: Postdoctoral Researcher
-    school: Apple MLR
+      [Panayotis Mertikopoulos](http://polaris.imag.fr/panayotis.mertikopoulos/).
+      Alongside, I contributed to the [LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS/) project
+      that implements a number of algorithms for efficient fine-tuning."
+    position: AI Anime Researcher
+    organization: Spellbrush
+    # As a postdoctoral researcher at Apple MLR, Paris,
+    # I am deeply interested in how we can improve AI systems from various perspectives.
+    # In particular, my current research focuses on __vision-language pre-training__
+    # and __generative modeling__, where I take a data-centric approach and explore different
+    # ways to enhance data quality.<br>
     # Apart from this, I am broadly interested in various topics in artificial intelligence,
-    # in  lie in the intersection of optimization and machine learning, with a focus on __minimax optimization__, __online learning__, __distributed optimization__, and __learning in games__.
+
     news:
-      - text: "(July 2024) We have released the [GBC datasets](https://huggingface.co/graph-based-captions) which recaption 10M images from CC12M in a new annotation format! Check the [paper](https://arxiv.org/abs/2407.06723)."
+      - text: "(January 2025) I moved to Tokyo and started working at [Spellbrush](https://spellbrush.com/)."
+      - text: "(July 2024) We released the [GBC datasets](https://huggingface.co/graph-based-captions) which recaption 10M images from CC12M in a new annotation format! Check the [paper](https://arxiv.org/abs/2407.06723)."
       - text: "(June 2024) I received the [Academic Thesis Prize](https://doctorat.univ-grenoble-alpes.fr/doctoral-college/phd-news/2024-academic-thesis-prize-yu-guan-hsieh--1435801.kjsp) from Université Grenble Alpes!"
-      - text: "(May 2024) The [BLOOP paper](https://arxiv.org/abs/2402.02998) for improved gradient surgery is accepted at ICML."
-      - text: "(Jan 2024) The [LyCORIS paper](https://arxiv.org/abs/2309.14859) for Stable Diffusion fine-tuning is accepted at ICLR."
+      # - text: "(May 2024) The [BLOOP paper](https://arxiv.org/abs/2402.02998) for improved gradient surgery is accepted at ICML."
+      # - text: "(Jan 2024) The [LyCORIS paper](https://arxiv.org/abs/2309.14859) for Stable Diffusion fine-tuning is accepted at ICLR."
       # - text: "(Jan 2024) I started my postdoctoral position at Apple MLR, Paris."
       # - text: "(November 2023) I have graduated from my Ph.D. and will move to Apple Paris for a postdoctoral position from 2024."
       # - text: "(September 2023) We have finished writing the paper on LyCORIS. Check it [here](https://arxiv.org/abs/2309.14859)."
