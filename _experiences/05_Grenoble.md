@@ -6,4 +6,4 @@ image: assets/img/timeline/Grenoble_fall.jpg
 For my second year of master, I studied
 [Mathematics, Vision, and Learning](https://www.universite-paris-saclay.fr/en/education/master/mathematics-and-applications/m2-mathematics-vision-learning) in ENS Paris-Saclay.
 I then came to Grenoble for the internship, before starting my Ph.D. with my current advisors
-in this "Capital of the Alps".
+in this ["Capital of the Alps"](https://olympics.com/cio/news/grenoble-1968-sacre-de-la-capitale-des-alpes).
