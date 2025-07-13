@@ -25,8 +25,9 @@ about:
     # Apart from this, I am broadly interested in various topics in artificial intelligence,
 
     news:
+      - text: "(June 2025) We released [midjourney video](https://x.com/midjourney/status/1935377193733079452) also known as [nijijourney video](https://x.com/nijijourney/status/1935378185740501491)."
       - text: "(January 2025) I moved to Tokyo and started working at [Spellbrush](https://spellbrush.com/)."
-      - text: "(July 2024) We released the [GBC datasets](https://huggingface.co/graph-based-captions) which recaption 10M images from CC12M in a new annotation format! Check the [paper](https://arxiv.org/abs/2407.06723)."
+      # - text: "(July 2024) We released the [GBC datasets](https://huggingface.co/graph-based-captions) which recaption 10M images from CC12M in a new annotation format! Check the [paper](https://arxiv.org/abs/2407.06723)."
       - text: "(June 2024) I received the [Academic Thesis Prize](https://doctorat.univ-grenoble-alpes.fr/doctoral-college/phd-news/2024-academic-thesis-prize-yu-guan-hsieh--1435801.kjsp) from Université Grenble Alpes!"
       # - text: "(May 2024) The [BLOOP paper](https://arxiv.org/abs/2402.02998) for improved gradient surgery is accepted at ICML."
       # - text: "(Jan 2024) The [LyCORIS paper](https://arxiv.org/abs/2309.14859) for Stable Diffusion fine-tuning is accepted at ICLR."
